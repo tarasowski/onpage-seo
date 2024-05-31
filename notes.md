@@ -96,4 +96,4 @@ Source: https://www.youtube.com/watch?v=H5mYvG76qZ0
 - SEO Analyzer lib to get SEO score: https://github.com/Bishwas-py/seord
 - SEO keyword research tool with Serpapi (autocomplete, related searches, related questions): https://github.com/chukhraiartur/seo-keyword-research-tool
 - Google Ads API to get the keyword volume: https://dev.to/hassancs91/how-to-build-your-own-keyword-tool-with-google-ads-api-c-1dec
-- 
+- POC to get the keyword intersection: https://github.com/tarasowski/trigrams-corpus-analysis
