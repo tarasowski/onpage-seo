@@ -1,9 +1,11 @@
 SurferSEO / WriteSonic
 
+> It gives you a game plan of going in when you go to create your content, so when you optimize it much higher, you have higher chances of ranking, cause you are doing it exactly what Google likes based on upon some of your closest competitors in the top 10
+
 # SurferSEO overview
 Source: https://www.youtube.com/watch?v=m48x-ulA4pQ
 - for which keyword you want to rank for
-- import from url
+- import from url (usually once the url starts to rank after a month you can come back and optimize it)
 - write your own content
 - auto-optmize to get the score up
 - suggestions (basic seo onpage analyzer)
@@ -18,11 +20,16 @@ Source: https://www.youtube.com/watch?v=s4LpbKioNEU
 - input keyword
 - choose the country
 - building a cluster of keywords
-- - shows the competitors
-  - with basic metrics like the 
+- - shows the competitors (pick your competitors, you want to outrank with a toggle)
+  - based on the competitors it suggests the keyword structure (avg. words, number of heading, number of paragraphs, number of images)
+  - it then lists the keywords the competitors use
+  - topics & questions: are ideas that one can use for a headline, paragraph etc. (what people ask from google, competitors content and suggestion from the surfer)
 - once cluster chosen you can use these keywords to analyze the content
 - metrics
 - - monthly search volume
   - total traffic
   - keyword difficulty
 - the onpage analyzer
+- - based on the suggestions from the step of showing the competitors it calculates the score (how often which keywords, headlines, images should be included in the text)
+  - lists all keywords and shows the keywords that are in the text green and other keywords red that you need to include it
+  - it shows the keyword density and how often they should be included into the text
