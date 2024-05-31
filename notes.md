@@ -65,6 +65,7 @@ Source: https://www.youtube.com/watch?v=Q-BZ5TfJZuA
     - it includes all important terms that are used on other competitors websites (based on occurence)
   - - topics and questions
     - auto suggestion list and what other people aks from google search
+  - search term input field, you can use to search for suggested keywords on the fly 
 
 
 ## Tools
