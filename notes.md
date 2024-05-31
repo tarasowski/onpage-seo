@@ -40,7 +40,7 @@ Source: https://www.youtube.com/watch?v=wuzHHG1dxLU
 - then you write the content
 - it shows then the content score after the content is written
 
-## SurferSEO Jaster mode
+## SurferSEO Jaster mode ✅ (best explanation)
 Source: https://www.youtube.com/watch?v=Q-BZ5TfJZuA
 - first you **input the keyword** or import content from the url
 - pick the country you want to rank in
@@ -65,7 +65,11 @@ Source: https://www.youtube.com/watch?v=Q-BZ5TfJZuA
     - it includes all important terms that are used on other competitors websites (based on occurence)
   - - topics and questions
     - auto suggestion list and what other people aks from google search
-  - search term input field, you can use to search for suggested keywords on the fly 
+  - search term input field, you can use to search for suggested keywords on the fly
+
+# WriteSonic SEO Checker & Optimizer
+Source: https://www.youtube.com/watch?v=H5mYvG76qZ0
+
 
 
 ## Tools
