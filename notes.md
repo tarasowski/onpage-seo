@@ -69,6 +69,24 @@ Source: https://www.youtube.com/watch?v=Q-BZ5TfJZuA
 
 # WriteSonic SEO Checker & Optimizer
 Source: https://www.youtube.com/watch?v=H5mYvG76qZ0
+- when you provide content it suggest relevant keywords that you can use as your primary keywords to optimize the content
+- pick the country you want to target (it goes to google and searches for the competitors)
+- when you input the keyword (you can input multiple keywords, but the first one will be treated as your primary one)
+- then it suggest the seo score:
+- - number of words (current vs. the range it should be)
+  - number of headlines (current vs. the range it should be)
+  - number of paragraphs (current vs. the range it should be)
+  - number of images (current vs. the range it should be)
+  - competitor keywords:
+  - - they show the volume for the keyword
+    - they show the keywords the competitors **are ranking for** (shows the suggestions how many time the keyword should be present at your article)
+    - they show longtail keywords, they keywords you should optimize for
+    - they show **common competitor terms** (the intersection of keywords) <- **these are the keywords that needs to be included in the text**
+- how do they come up with the score?
+- - they go to google and search the competitors that rank for the specific keyword
+  - first five or first 10 results
+  - based on that they calcualte the averages
+- **automatically optimize the article by clicking on a simple button**
 
 
 
