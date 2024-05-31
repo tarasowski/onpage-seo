@@ -42,15 +42,29 @@ Source: https://www.youtube.com/watch?v=wuzHHG1dxLU
 
 ## SurferSEO Jaster mode
 Source: https://www.youtube.com/watch?v=Q-BZ5TfJZuA
-- first you input the keyword or import content from the url
+- first you **input the keyword** or import content from the url
 - pick the country you want to rank in
-- getting suggestions and keyword ranking difficulty and the volume
+- getting suggestions and keyword **ranking difficulty** and the volume
 - it then goes
-- - scrapes the top 10 rankings
+- - scrapes the **top 10 rankings**
   - does the keyword analysis (average keyword density)
   - does the content structure analysis (average headings, paragraphs, images)
   - suggest the keywords that should be in the content (the occurence of each keywords)
   - does recalculates the score on the fly based on the information retrieved from the first step
+- feels like the gamification when you change the content you level up the score
+- when new keyword is added it gets marked as green, so you can visually see what's missing
+- **customize settings feature**
+- - displays the competitors that were taken into consideration for ranking
+  - you can swith on/off the competitors you want to include into the analysis to create the content score + suggestions
+  - based on the competitors it **recalculates the content structure**
+  - - amount of words
+    - numbers of headings
+    - number of paragraphs
+    - number of images
+  - - terms to use
+    - it includes all important terms that are used on other competitors websites (based on occurence)
+  - - topics and questions
+    - auto suggestion list and what other people aks from google search
 
 
 ## Tools
