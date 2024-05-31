@@ -89,8 +89,66 @@ Source: https://www.youtube.com/watch?v=H5mYvG76qZ0
 - **automatically optimize the article by clicking on a simple button**
 
 
+# POC
+1. Hook up to the google api to search the keywords the user inputs
+2. Get the top 10 results from the api
+3. Extract the content of each website
+4. Count avg. words, avg number of headings, number of paragraphs, number of images
+5. Use this script: https://github.com/tarasowski/trigrams-corpus-analysis to generate n-grams (1,2,3)
+6. Then use the 3n-grams and get the volume of these keywords and display how often the keywords appear on competitors website
+7. Use 3n-grams + the average acount of words, number of headings and number of paragraps and number of images to calculate the score how well the content is optimized from 0 to 100
+8. Use the following formula to calculate / recalculate the score on the fly
 
-## Tools
+```
+// Function to calculate the optimization score
+function calculateOptimizationScore(W, H, P, I, Fk, Nk, weights) {
+    // Define maximum observed values
+    const Wmax = 1000; // Example value, replace with actual maximum observed value
+    const Hmax = 20;   // Example value, replace with actual maximum observed value
+    const Pmax = 50;   // Example value, replace with actual maximum observed value
+    const Imax = 10;   // Example value, replace with actual maximum observed value
+    const Fkmax = 100; // Example value, replace with actual maximum observed value
+    const Nkmax = 1000; // Example value, replace with actual maximum observed value
+    
+    // Destructure weights
+    const { wWeight, hWeight, pWeight, iWeight, fkWeight, nkWeight } = weights;
+
+    // Calculate individual terms
+    const term1 = (W / Wmax) * wWeight;
+    const term2 = (H / Hmax) * hWeight;
+    const term3 = (P / Pmax) * pWeight;
+    const term4 = (I / Imax) * iWeight;
+    const term5 = (Fk / Fkmax) * fkWeight;
+    const term6 = (Nk / Nkmax) * nkWeight;
+
+    // Calculate total score
+    const score = term1 + term2 + term3 + term4 + term5 + term6;
+    
+    return score;
+}
+
+// Example usage
+const W = 800; // Example value for average word count
+const H = 10;  // Example value for average number of headings
+const P = 30;  // Example value for average number of paragraphs
+const I = 5;   // Example value for average number of images
+const Fk = 50; // Example value for frequency of keyword across competitors
+const Nk = 500; // Example value for total number of n-grams containing keyword
+const weights = {
+    wWeight: 0.2, // Example weight for word count
+    hWeight: 0.1, // Example weight for number of headings
+    pWeight: 0.2, // Example weight for number of paragraphs
+    iWeight: 0.1, // Example weight for number of images
+    fkWeight: 0.2, // Example weight for frequency of keyword
+    nkWeight: 0.2  // Example weight for total number of n-grams
+};
+
+const optimizationScore = calculateOptimizationScore(W, H, P, I, Fk, Nk, weights);
+console.log("Optimization Score:", optimizationScore);
+```
+
+
+# Tools
 - Calculate keyword difficulty score: https://dataforseo.com/help-center/what-is-keyword-difficulty-and-how-is-it-calculated
 - SEO Linter checks html for SEO: https://github.com/nickreese/seo-lint
 - SEO Analyzer lib to get SEO score: https://github.com/Bishwas-py/seord
