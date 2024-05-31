@@ -92,3 +92,8 @@ Source: https://www.youtube.com/watch?v=H5mYvG76qZ0
 
 ## Tools
 - Calculate keyword difficulty score: https://dataforseo.com/help-center/what-is-keyword-difficulty-and-how-is-it-calculated
+- SEO Linter checks html for SEO: https://github.com/nickreese/seo-lint
+- SEO Analyzer lib to get SEO score: https://github.com/Bishwas-py/seord
+- SEO keyword research tool with Serpapi (autocomplete, related searches, related questions): https://github.com/chukhraiartur/seo-keyword-research-tool
+- Google Ads API to get the keyword volume: https://dev.to/hassancs91/how-to-build-your-own-keyword-tool-with-google-ads-api-c-1dec
+- 
